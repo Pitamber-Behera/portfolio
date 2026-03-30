@@ -1,11 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import { motion, useInView, AnimatePresence } from "framer-motion";
+import { motion, useInView} from "framer-motion";
 import { FaGithub, FaLinkedin, FaCode } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 import { HiMoon, HiSun } from "react-icons/hi";
 import profile from "./assets/sipunu.jpeg";
-// ⚠️ Keep your original import:
-// import profile from "./assets/sipunu.jpeg";
+
 
 /* ─────────────────────────────────────────────
    TYPEWRITER HOOK
